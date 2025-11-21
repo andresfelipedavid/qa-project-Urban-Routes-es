@@ -12,13 +12,14 @@ Automatización de pruebas para la plataforma Urban Routes, enfocada en validar 
 - **Estructura modular**:
   - `main.py`: contiene los tests automatizados, localizadores y metodos.
   - `data.py`: define datos de prueba reutilizables.
+  - `helpers.py`: patrón Page Object para encapsular acciones, funcion retrieve_phone_code
   - `UrbanRoutesPage`: patrón Page Object para encapsular acciones.
 
 ## Cómo ejecutar las pruebas
 
 - **Desde el terminal**
 
-pytest main.py
+pytest main.py > Correr la pruebas en el perfil "pytest in main.py" para que correr todas las pruebas al mismo tiempo
 
 - **Para ver resultados detallados**
 - 
